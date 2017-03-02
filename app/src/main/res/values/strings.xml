@@ -1,0 +1,7 @@
+<resources>
+  <string name="app_name">Intents</string>
+  <string name="launch">Launch Activity</string>
+  <string name="launch_web">Launch Browser</string>
+  <string name="launch_share">Launch Share</string>
+  <string name="launch_maps">Launch Maps</string>
+</resources>

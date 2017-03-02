@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.oracleicom.intents.MainActivity"
+    >
+
+  <Button
+      android:id="@+id/launch_activity_button"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/launch"
+      />
+
+  <Button
+      android:id="@+id/launch_web_button"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/launch_web"
+      />
+
+  <Button
+      android:id="@+id/launch_share_button"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/launch_share"
+      />
+
+  <Button
+      android:id="@+id/launch_maps_button"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/launch_maps"
+      />
+
+  <TextView
+      android:id="@+id/text_received_message"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      />
+
+</LinearLayout>
